@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 
 // Replace this with your own photo later
-const myPhoto =
-  "https://placehold.co/300x300/1f2937/ffffff?text=Pedha+Vidhath+😂";
+import myPhoto from "../../assets/gallery/pedhavidhath.jpeg";
 
 const Ending = () => {
   return (
@@ -26,6 +25,33 @@ const Ending = () => {
         alt="Me"
         className="w-64 h-64 rounded-full object-cover border-8 border-pink-400 mt-14 shadow-[0_0_60px_rgba(255,105,180,.5)]"
       />
+      <p className="mt-6 text-center text-pink-300">
+  <span className="text-3xl font-bold">
+    Mr. Pidhath 🤓
+  </span>
+
+  <br />
+  <br />
+
+  <span className="text-xl">
+    Full-time SNP Annoyer 
+  </span>
+
+  <br />
+
+  <span className="italic text-gray-300">
+    4 Years of Experience 
+  </span>
+
+  <br />
+  <br />
+
+  <span className="text-lg text-gray-300">
+    Professional Sleeper 
+    <span className="mx-3">|</span>
+    Bathroom Singer 
+  </span>
+</p>
 
       <motion.div
         initial={{ opacity: 0, y: 60 }}
@@ -35,7 +61,7 @@ const Ending = () => {
       >
         <div className="whitespace-pre-line text-xl leading-[46px] text-gray-200">
 
-{` One last thing. 
+{` Sorry for my photo,kind of felt cute lollll.One last thing. 
 
 I know this website has been full of jokes, memories and me pulling your leg.
 

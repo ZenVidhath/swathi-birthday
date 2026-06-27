@@ -1,63 +1,72 @@
 import { motion } from "framer-motion";
+import img1 from "../../assets/gallery/Swathi1.jpeg";
+import img2 from "../../assets/gallery/Swathi2.jpeg";
+import img3 from "../../assets/gallery/Swathi3.jpeg";
+import img4 from "../../assets/gallery/Swathi4.jpeg";
+import img5 from "../../assets/gallery/Swathi5.jpeg";
+import img6 from "../../assets/gallery/Swathi6.jpeg";
+import img7 from "../../assets/gallery/Swathi7.jpeg";
+import img8 from "../../assets/gallery/Swathi8.jpeg";
+import img9 from "../../assets/gallery/Swathi9.jpeg";
 
 const photos = [
   {
-    image: "https://placehold.co/600x800/1f2937/ffffff?text=Photo+1",
+    image: img1,
     title: "Beautiful ❤️",
     description: "You somehow manage to look pretty every single day.",
     rotate: "-rotate-3",
   },
   {
-    image: "https://placehold.co/600x800/374151/ffffff?text=Photo+2",
+    image: img2,
     title: "Beauty & Brains 🧠",
     description:
       "School Topper • PU Topper • State Rank 6 • Engineering Topper.",
     rotate: "rotate-2",
   },
   {
-    image: "https://placehold.co/600x800/4b5563/ffffff?text=Photo+3",
+    image: img3,
     title: "My Confidence 💙",
     description:
       "You never realised how much confidence you gave me.",
     rotate: "-rotate-2",
   },
   {
-    image: "https://placehold.co/600x800/6b7280/ffffff?text=Photo+4",
+    image: img4,
     title: "Chicken Lover 🍗",
     description:
       "I'm convinced chicken is your true soulmate 😂",
     rotate: "rotate-3",
   },
   {
-    image: "https://placehold.co/600x800/1f2937/ffffff?text=Photo+5",
+    image: img5,
     title: "Pure Soul ✨",
     description:
       "One of the most honest and genuine people I've ever met.",
     rotate: "-rotate-1",
   },
   {
-    image: "https://placehold.co/600x800/374151/ffffff?text=Photo+6",
+    image: img6,
     title: "Family Girl 👨‍👩‍👧",
     description:
       "The way you speak about your parents always makes me smile.",
     rotate: "rotate-1",
   },
   {
-    image: "https://placehold.co/600x800/4b5563/ffffff?text=Photo+7",
+    image: img9,
     title: "Multitalented 🌸",
     description:
       "Debates • Dance • Singing • Presentations • Everything!",
     rotate: "-rotate-3",
   },
   {
-    image: "https://placehold.co/600x800/6b7280/ffffff?text=Photo+8",
+    image: img7,
     title: "My Chukki 💖",
     description:
       "Still the cutest nickname I'll ever use.",
     rotate: "rotate-2",
   },
   {
-    image: "https://placehold.co/600x800/1f2937/ffffff?text=Photo+9",
+    image: img8,
     title: "First & Forever ❤️",
     description:
       "The first... and the last best friend.",
